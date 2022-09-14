@@ -44,11 +44,11 @@ body {
 }
 
 #display {
-  height: 100px;
+  min-height: 100px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 5rem;
+  padding: 0 2rem;
   color: white;
   font-size: 32px;
   background-color: #171717;
@@ -172,7 +172,7 @@ button {
 .card {
   width: 33%;
   height: 100%;
-  padding: 50px;
+  padding:  50px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
