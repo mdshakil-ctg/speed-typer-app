@@ -71,6 +71,7 @@ const gameOver = () => {
 
   // show result modal
   resultModal.innerHTML = "";
+  
   resultModal.classList.toggle("hidden");
   modalBackground.classList.toggle("hidden");
   // clear user text
@@ -110,7 +111,7 @@ const start = () => {
     countdownOverlay.innerHTML = `<h1>${count}</h1>`;
 
     // finished timer
-    if (count < 0) {
+    if (count == 0) {
       // -------------- START TYPING -----------------
       document.addEventListener("keydown", typeController);
       
