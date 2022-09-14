@@ -42,8 +42,15 @@
             The browser is then set up to listen for the response from the network, and when it has something to return to you, it will schedule the callback function to be executed by inserting it into the event loop.</p>
     </div>
     <div class="blogs">
-        <h2>What is the difference between local storage and session storage?</h2>
-        <p>sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.</p>
+        <h2>Scenarios that create undefined</h2>
+        <ul>
+            <li>Uninitialized variable.</li>
+            <li>Accessing a non-existing property.</li>
+            <li>Function null parameters.</li>
+            <li>Function no return value.</li>
+            <li>void operator.</li>
+            <li>undefined in arrays null index.</li>
+        </ul>
     </div>
 </body>
 </html>
